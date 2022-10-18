@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../img/graveyardtilesetnew/png/BG.png);
+    background-size: cover;
+
+}
+
+#player{
+    // background-color: red;
+    background-image: url(../img/Idle__001.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 150px;
+    height: 127px;
+    bottom: 850px;
+    
+}
+.turn{
+    transform: rotateY(180deg);
+}
+
+#ground{
+    // background-color: green;
+    background-image: url(../img/graveyardtilesetnew/png/Tiles/Tile\ \(2\).png);
+    background-size: contain;
+    background-repeat: repeat-x;
+    position: absolute;
+    height: 150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+#cloud{
+    width: 250px;
+    height: 80px;
+    // background-color: red;
+    background-image: url(../img/graveyardtilesetnew/png/Objects/Bush\ \(1\).png);
+    background-size: cover;
+    position: absolute;
+    z-index: 11;
+    top: 100px;
+    left: 400px;
+}
